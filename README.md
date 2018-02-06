@@ -11,5 +11,18 @@ less(node编写) sass(ruby编写) 一看我们都首选less啦
 [中文文档](http://lesscss.cn/)
 
 ### 安装步骤
+0. 进入项目目录， cd命令哦
 1. 全局安装less指令 npm install less -g
+![111](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/install1.png)
 2. 编译源文件lessc path/to/source.css path/to/dist.css
+![222](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/4.png)
+3. 开启live-server<br />
+	live-server
+
+#### 预览效果
+1. src文件夹里面是源文件，main.less
+![333](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/2.png)
+2. dist文件夹里面是编译之后的文件，main.css
+![333](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/3.png)
+3. 页面效果
+![555](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/5.png)
