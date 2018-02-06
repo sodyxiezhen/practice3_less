@@ -26,3 +26,13 @@ less(node编写) sass(ruby编写) 一看我们都首选less啦
 ![333](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/3.png)
 3. 页面效果
 ![555](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/5.png)
+
+#### 常用语法
+1. 变量，方便共用啦，也能全局修改，功能不言自明
+```
+@fontSize16px: 16px;
+.font-size-16{
+	font-size: @fontSize16px;
+}
+```
+2. 待续，请完成小作业，less环境的搭建及变量的使用。
