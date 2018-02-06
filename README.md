@@ -9,6 +9,7 @@ less(node编写) sass(ruby编写) 一看我们都首选less啦
 
 ### 资源地址
 [中文文档](http://lesscss.cn/)
+[阮一峰sass博客](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
 ### 安装步骤
 0. 进入项目目录， cd命令哦
