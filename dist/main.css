@@ -10,3 +10,20 @@
 .color-green {
   color: Green;
 }
+.part2 p {
+  font-size: 22px;
+  font-style: italic;
+}
+.part2 img {
+  height: 50px;
+  width: 50px;
+  box-shadow: 5px 5px 1px;
+}
+.part2 img:hover {
+  height: 100px;
+  width: 100px;
+}
+.part3 p {
+  color: red;
+  font-size: 20px;
+}

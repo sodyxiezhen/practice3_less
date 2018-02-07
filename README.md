@@ -36,4 +36,11 @@ less(node编写) sass(ruby编写) 一看我们都首选less啦
 	font-size: @fontSize16px;
 }
 ```
-2. 待续，请完成小作业，less环境的搭建及变量的使用。
+2. 嵌套。相比于下面左图代码，可以用右边的less语法解决，更加简洁，就是嵌套
+![777](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/7.png)
+![666](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/6.png)
+3. 混合mixin。混合就是一段可复用的代码，跟函数比较类似
+使用了左边的less语法，就可以实现动态传参o~~
+![888](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/8.png)
+![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/9.png)
+4. 下一节，函数与循环~~完成本节课的作业哦，嵌套与混合的使用

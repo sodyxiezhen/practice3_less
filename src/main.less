@@ -1,3 +1,4 @@
+//1.变量
 @fontSize16px: 16px;
 @fontSize20px: 20px;
 
@@ -16,4 +17,33 @@
 }
 .color-green{
 	color: @fontColorGreen;
+}
+
+//2.嵌套
+.part2{
+	p{
+		font-size: 22px;
+		font-style: italic;
+	}
+	img{
+		height: 50px;
+		width: 50px;
+		box-shadow: 5px 5px 1px;
+		&:hover{
+			height: 100px;
+			width: 100px;
+		}
+	}
+}
+
+//3.混合
+.fontAndColor(@color;@fontSize) {
+	color:@color;
+	font-size: @fontSize;
+}
+
+.part3{
+	p{
+		.fontAndColor(red, 20px);
+	}
 }
