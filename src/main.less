@@ -47,3 +47,32 @@
 		.fontAndColor(red, 20px);
 	}
 }
+
+//4.if else
+@debug:true;
+.debugColorMixin(@debug) when (@debug) {
+	color: red;
+}
+.debugDisplayMixin(@debug) when not (@debug){
+	display:none;
+}
+.part4{
+	.text1{
+		.debugColorMixin(@debug);
+	}
+	.text2{
+		.debugDisplayMixin(@debug);
+	}
+}
+
+//5.循环
+.loop(@counter) when (@counter > 0) {
+  .loop((@counter - 1));    // next iteration
+  .column-@{counter}{
+  	font-size: @counter * 10px;
+  }
+}
+
+div {
+  .loop(5); // launch the loop
+}
