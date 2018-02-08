@@ -43,9 +43,9 @@ less(node编写) sass(ruby编写) 一看我们都首选less啦
 使用了左边的less语法，就可以实现动态传参o~~
 ![888](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/8.png)
 ![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/9.png)
-4. 函数。带参数的mixin就是函数啦~~
-![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/10.png)
-![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/11.png)
+4. 函数。带参数的mixin就是函数啦~~<br />
+![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/10.png)<br />
+![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/11.png)<br />
 5. 循环。利用了函数的递归，有点绕，能使用就使用吧，用的也不多
 ![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/12.png)
 ![999](https://raw.githubusercontent.com/wiki/sodyxiezhen/practice3_less/13.png)
